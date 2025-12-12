@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-165f3332ced1e32dc021.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fdilink_ahrs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ahrs_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ahrs_driver_node-7607ed01f7173690f079.json",
+					"name" : "ahrs_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fdilink_ahrs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fdilink_ahrs_uninstall-3031b625089cc95f173b.json",
+					"name" : "fdilink_ahrs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_tf_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_tf_node-3d46d003a8e50a46e5ce.json",
+					"name" : "imu_tf_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_velocity_printer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_velocity_printer-6f336c1c20b2928c9f31.json",
+					"name" : "pose_velocity_printer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-22ff799aba3666e13a31.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs",
+		"source" : "/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

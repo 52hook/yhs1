@@ -1,0 +1,2 @@
+Invoking command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs': /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20
+Invoked command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs' returned '2': /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20

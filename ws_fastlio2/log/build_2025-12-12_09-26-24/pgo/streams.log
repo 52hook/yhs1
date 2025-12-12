@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/nvidia/ws_fastlio2/build/pgo': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/pgo -- -j20 -l20
+[0.051s] [100%] Built target pgo_node
+[0.059s] Invoked command in '/home/nvidia/ws_fastlio2/build/pgo' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/pgo -- -j20 -l20
+[0.060s] Invoking command in '/home/nvidia/ws_fastlio2/build/pgo': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/pgo
+[0.063s] -- Install configuration: "Release"
+[0.064s] -- Execute custom install script
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/lib/pgo/pgo_node
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/launch/pgo_launch.py
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/config/pgo.yaml
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/rviz/pgo.rviz
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/ament_index/resource_index/package_run_dependencies/pgo
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/ament_index/resource_index/parent_prefix_path/pgo
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/path.sh
+[0.065s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/path.dsv
+[0.065s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.bash
+[0.065s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.sh
+[0.065s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.zsh
+[0.065s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.dsv
+[0.065s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/package.dsv
+[0.069s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/ament_index/resource_index/packages/pgo
+[0.069s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/cmake/pgoConfig.cmake
+[0.070s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/cmake/pgoConfig-version.cmake
+[0.070s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/package.xml
+[0.085s] Invoked command in '/home/nvidia/ws_fastlio2/build/pgo' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/pgo

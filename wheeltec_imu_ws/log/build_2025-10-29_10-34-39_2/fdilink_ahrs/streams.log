@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20
+[0.056s] [ 14%] [32mBuilding CXX object CMakeFiles/pose_velocity_printer.dir/src/pose_velocity_printer.cpp.o[0m
+[0.057s] [ 42%] Built target imu_tf_node
+[0.062s] [ 85%] Built target ahrs_driver_node
+[6.086s] [100%] [32m[1mLinking CXX executable pose_velocity_printer[0m
+[6.405s] [100%] Built target pose_velocity_printer
+[6.414s] Invoked command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20
+[6.422s] Invoking command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs
+[6.431s] -- Install configuration: ""
+[6.431s] -- Installing: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/pose_velocity_printer
+[6.435s] -- Set runtime path of "/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/pose_velocity_printer" to ""
+[6.435s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node
+[6.435s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/imu_tf_node
+[6.435s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch
+[6.435s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/imu_tf.launch.py
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/ahrs_driver.launch.py
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdilink_ahrs
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdilink_ahrs
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.sh
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.dsv
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.sh
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.dsv
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.bash
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.sh
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.zsh
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.dsv
+[6.436s] -- Installing: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/ament_index/resource_index/packages/fdilink_ahrs
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake
+[6.436s] -- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.xml
+[6.437s] Invoked command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs

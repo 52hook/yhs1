@@ -1,0 +1,27 @@
+In file included from [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:1[m[K:
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:31:43:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+   31 | #include "tf2_ros/transform_broadcaster.h"[01;35m[K#[m[K新增
+      |                                           [01;35m[K^[m[K
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In constructor ‘[01m[Kyhs::CanControl::CanControl(rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:35:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_callback[m[K’ is not a member of ‘[01m[Kyhs::CanControl[m[K’
+   35 |                  std::bind(&CanControl::[01;31m[Kimu_callback[m[K, this, std::placeholders::_1)
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:12:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimu_yaw_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   12 |                 double [01;35m[Kimu_yaw_[m[K;  // 存储IMU解析出的航向角（弧度）
+      |                        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:[m[K At global scope:
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:38:15:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid yhs::CanControl::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’
+   38 |          void [01;31m[KCanControl[m[K::imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg)
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:38:15:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid yhs::CanControl::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:1[m[K:
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:33:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass yhs::CanControl[m[K’ defined here
+   33 | class [01;36m[KCanControl[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In member function ‘[01m[Kvoid yhs::CanControl::publish_odom(double, double)[m[K’:
+[01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:407:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_yaw_[m[K’ was not declared in this scope
+  407 |                 theta_ = [01;31m[Kimu_yaw_[m[K;  // 直接使用IMU解析的航向角;
+      |                          [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/yhs_can_control_node.dir/build.make:76：CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/yhs_can_control_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

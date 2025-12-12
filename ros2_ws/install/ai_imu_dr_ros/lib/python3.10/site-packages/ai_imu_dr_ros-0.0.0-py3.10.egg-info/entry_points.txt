@@ -1,0 +1,3 @@
+[console_scripts]
+ai_imu_dr_node = ai_imu_dr_ros.ai_imu_dr_node:main
+

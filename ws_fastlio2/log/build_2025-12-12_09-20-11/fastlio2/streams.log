@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/nvidia/ws_fastlio2/build/fastlio2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/fastlio2 -- -j20 -l20
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target lio_node[0m
+[0.183s] [100%] Built target lio_node
+[0.190s] Invoked command in '/home/nvidia/ws_fastlio2/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/fastlio2 -- -j20 -l20
+[0.195s] Invoking command in '/home/nvidia/ws_fastlio2/build/fastlio2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/fastlio2
+[0.200s] -- Install configuration: "Release"
+[0.200s] -- Execute custom install script
+[0.200s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/lib/fastlio2/lio_node
+[0.201s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/launch/lio_launch.py
+[0.201s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/rviz/fastlio2.rviz
+[0.201s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/config/lio.yaml
+[0.202s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/ament_index/resource_index/package_run_dependencies/fastlio2
+[0.202s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/ament_index/resource_index/parent_prefix_path/fastlio2
+[0.202s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/environment/ament_prefix_path.sh
+[0.202s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/environment/ament_prefix_path.dsv
+[0.202s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/environment/path.sh
+[0.202s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/environment/path.dsv
+[0.202s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/local_setup.bash
+[0.232s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/local_setup.sh
+[0.233s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/local_setup.zsh
+[0.233s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/local_setup.dsv
+[0.234s] -- Symlinking: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/package.dsv
+[0.250s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/ament_index/resource_index/packages/fastlio2
+[0.251s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/cmake/fastlio2Config.cmake
+[0.251s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/cmake/fastlio2Config-version.cmake
+[0.252s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/fastlio2/share/fastlio2/package.xml
+[0.255s] Invoked command in '/home/nvidia/ws_fastlio2/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/fastlio2

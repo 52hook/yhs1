@@ -1,0 +1,3 @@
+[0.005s] Invoking command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs -DCMAKE_INSTALL_PREFIX=/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs
+[0.011s] [0mCMake Error: The source "/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/CMakeLists.txt" does not match the source "/home/nvidia/wheeltec_imu_ws/src/fdlink_ahrs/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.012s] Invoked command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs -DCMAKE_INSTALL_PREFIX=/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs

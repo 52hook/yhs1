@@ -1,0 +1,7 @@
+[ 42%] Built target pose_velocity_printer
+[ 42%] [32m[1mLinking CXX executable imu_tf_node[0m
+[ 85%] Built target ahrs_driver_node
+Error running link command: No such file or directory
+gmake[2]: *** [CMakeFiles/imu_tf_node.dir/build.make:214：imu_tf_node] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/imu_tf_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

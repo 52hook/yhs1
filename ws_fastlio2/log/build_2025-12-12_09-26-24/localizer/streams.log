@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/nvidia/ws_fastlio2/build/localizer': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/localizer -- -j20 -l20
+[0.048s] [100%] Built target localizer_node
+[0.054s] Invoked command in '/home/nvidia/ws_fastlio2/build/localizer' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/localizer -- -j20 -l20
+[0.059s] Invoking command in '/home/nvidia/ws_fastlio2/build/localizer': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/localizer
+[0.063s] -- Install configuration: "Release"
+[0.063s] -- Execute custom install script
+[0.063s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/lib/localizer/localizer_node
+[0.063s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/launch/localizer_launch.py
+[0.063s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/config/localizer.yaml
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/rviz/localizer.rviz
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/ament_index/resource_index/package_run_dependencies/localizer
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/ament_index/resource_index/parent_prefix_path/localizer
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/path.sh
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/path.dsv
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.bash
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.sh
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.zsh
+[0.064s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.dsv
+[0.065s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/package.dsv
+[0.068s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/ament_index/resource_index/packages/localizer
+[0.069s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/cmake/localizerConfig.cmake
+[0.069s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/cmake/localizerConfig-version.cmake
+[0.069s] -- Up-to-date symlink: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/package.xml
+[0.070s] Invoked command in '/home/nvidia/ws_fastlio2/build/localizer' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/localizer

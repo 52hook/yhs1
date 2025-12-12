@@ -1,0 +1,137 @@
+[0.014s] Invoking command in '/home/nvidia/ws_fastlio2/build/localizer': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/ws_fastlio2/src/fastlio2_ros2/localizer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/ws_fastlio2/install/localizer
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.430s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.448s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.472s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.475s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.520s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.540s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.551s] -- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)
+[0.579s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.582s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.634s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.660s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.697s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.706s] -- Looking for pthread.h
+[0.760s] -- Looking for pthread.h - found
+[0.760s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.806s] -- Found Threads: TRUE  
+[0.847s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.945s] -- Found interface: 0.0.0 (/home/nvidia/ws_fastlio2/install/interface/share/interface/cmake)
+[0.958s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.991s] -- Checking for module 'eigen3'
+[0.998s] --   Found eigen3, version 3.4.0
+[1.015s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.015s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.041s] -- Checking for module 'flann'
+[1.048s] --   Found flann, version 1.9.1
+[1.071s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.072s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.708s] -- Checking for module 'libusb-1.0'
+[1.717s] --   Found libusb-1.0, version 1.0.25
+[1.736s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.737s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.769s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.904s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.909s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.913s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.042s] -- Found Qhull version 8.0.2
+[2.182s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.312s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.313s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.314s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.314s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.315s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.315s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.316s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.316s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.317s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.317s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.318s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.318s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.319s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.320s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.320s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.321s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.322s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.322s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.323s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.324s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.324s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.324s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.325s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.325s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.326s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.331s] [33mCMake Warning (dev) at CMakeLists.txt:28 (find_package):
+[2.332s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.332s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.332s]   command to set the policy and suppress this warning.
+[2.332s] 
+[2.332s]   CMake variable PCL_ROOT is set to:
+[2.332s] 
+[2.332s]     /usr
+[2.332s] 
+[2.332s]   For compatibility, CMake is ignoring the variable.
+[2.332s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.332s] [0m
+[2.346s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.406s] -- Configured cppcheck include dirs: 
+[2.407s] -- Configured cppcheck exclude dirs and/or files: 
+[2.407s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.407s] -- Added test 'lint_cmake' to check CMake code style
+[2.407s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.408s] -- Added test 'uncrustify' to check C / C++ code style
+[2.408s] -- Configured uncrustify additional arguments: 
+[2.408s] -- Added test 'xmllint' to check XML markup files
+[2.409s] -- Configuring done
+[2.433s] -- Generating done
+[2.441s] -- Build files have been written to: /home/nvidia/ws_fastlio2/build/localizer
+[2.456s] Invoked command in '/home/nvidia/ws_fastlio2/build/localizer' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/ws_fastlio2/src/fastlio2_ros2/localizer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/ws_fastlio2/install/localizer
+[2.457s] Invoking command in '/home/nvidia/ws_fastlio2/build/localizer': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/localizer -- -j20 -l20
+[2.502s] [ 75%] [32mBuilding CXX object CMakeFiles/localizer_node.dir/src/localizer_node.cpp.o[0m
+[2.502s] [ 75%] [32mBuilding CXX object CMakeFiles/localizer_node.dir/src/localizers/commons.cpp.o[0m
+[2.502s] [ 75%] [32mBuilding CXX object CMakeFiles/localizer_node.dir/src/localizers/icp_localizer.cpp.o[0m
+[23.072s] [100%] [32m[1mLinking CXX executable localizer_node[0m
+[23.609s] [100%] Built target localizer_node
+[23.616s] Invoked command in '/home/nvidia/ws_fastlio2/build/localizer' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/localizer -- -j20 -l20
+[23.617s] Invoking command in '/home/nvidia/ws_fastlio2/build/localizer': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/localizer
+[23.620s] -- Install configuration: "Release"
+[23.621s] -- Execute custom install script
+[23.621s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/lib/localizer/localizer_node
+[23.626s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/launch/localizer_launch.py
+[23.630s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/config/localizer.yaml
+[23.634s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/rviz/localizer.rviz
+[23.638s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/ament_index/resource_index/package_run_dependencies/localizer
+[23.642s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/ament_index/resource_index/parent_prefix_path/localizer
+[23.646s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/ament_prefix_path.sh
+[23.651s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/ament_prefix_path.dsv
+[23.656s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/path.sh
+[23.661s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/environment/path.dsv
+[23.665s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.bash
+[23.669s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.sh
+[23.673s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.zsh
+[23.678s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/local_setup.dsv
+[23.682s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/package.dsv
+[23.686s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/ament_index/resource_index/packages/localizer
+[23.690s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/cmake/localizerConfig.cmake
+[23.694s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/cmake/localizerConfig-version.cmake
+[23.698s] -- Symlinking: /home/nvidia/ws_fastlio2/install/localizer/share/localizer/package.xml
+[23.704s] Invoked command in '/home/nvidia/ws_fastlio2/build/localizer' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/localizer

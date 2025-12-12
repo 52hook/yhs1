@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3deceef418002f6d2579.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "yhs_can_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "odom_velocity_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom_velocity_filter-530f0f041717844af870.json",
+					"name" : "odom_velocity_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8d02e012a826a88fb7b2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_control_node-6c97b120a0413c64043b.json",
+					"name" : "yhs_can_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yhs_can_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yhs_can_control_uninstall-a0adb2f61f29ce3f8660.json",
+					"name" : "yhs_can_control_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/5.1-ros2_ws/build/yhs_can_control",
+		"source" : "/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

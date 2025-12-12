@@ -1,0 +1,4 @@
+gmake[2]: /usr/bin/c++: 没有那个文件或目录
+gmake[2]: *** [CMakeFiles/yhs_can_control_node.dir/build.make:76：CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o] 错误 127
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/yhs_can_control_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

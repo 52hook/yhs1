@@ -1,0 +1,21 @@
+[0.388s] Invoking command in '/home/nvidia/ros2_ws/src/ai_imu_dr_ros': PYTHONPATH=/home/nvidia/ros2_ws/build/ai_imu_dr_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/ai_imu_dr_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_imu_dr_ros build --build-base /home/nvidia/ros2_ws/build/ai_imu_dr_ros/build install --record /home/nvidia/ros2_ws/build/ai_imu_dr_ros/install.log --single-version-externally-managed install_data
+[0.526s] running egg_info
+[0.526s] writing ../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info/PKG-INFO
+[0.526s] writing dependency_links to ../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info/dependency_links.txt
+[0.526s] writing entry points to ../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info/entry_points.txt
+[0.526s] writing requirements to ../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info/requires.txt
+[0.526s] writing top-level names to ../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info/top_level.txt
+[0.528s] reading manifest file '../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info/SOURCES.txt'
+[0.528s] writing manifest file '../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] running install
+[0.529s] running install_lib
+[0.530s] running install_data
+[0.532s] running install_egg_info
+[0.534s] removing '/home/nvidia/ros2_ws/install/ai_imu_dr_ros/lib/python3.10/site-packages/ai_imu_dr_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.534s] Copying ../../build/ai_imu_dr_ros/ai_imu_dr_ros.egg-info to /home/nvidia/ros2_ws/install/ai_imu_dr_ros/lib/python3.10/site-packages/ai_imu_dr_ros-0.0.0-py3.10.egg-info
+[0.535s] running install_scripts
+[0.547s] Installing ai_imu_dr_node script to /home/nvidia/ros2_ws/install/ai_imu_dr_ros/lib/ai_imu_dr_ros
+[0.548s] writing list of installed files to '/home/nvidia/ros2_ws/build/ai_imu_dr_ros/install.log'
+[0.563s] Invoked command in '/home/nvidia/ros2_ws/src/ai_imu_dr_ros' returned '0': PYTHONPATH=/home/nvidia/ros2_ws/build/ai_imu_dr_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/ai_imu_dr_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_imu_dr_ros build --build-base /home/nvidia/ros2_ws/build/ai_imu_dr_ros/build install --record /home/nvidia/ros2_ws/build/ai_imu_dr_ros/install.log --single-version-externally-managed install_data

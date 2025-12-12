@@ -1,0 +1,139 @@
+[0.013s] Invoking command in '/home/nvidia/ws_fastlio2/build/pgo': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/ws_fastlio2/src/fastlio2_ros2/pgo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/ws_fastlio2/install/pgo
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.215s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.222s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.341s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.416s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.452s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.457s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.466s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.564s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.629s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.648s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.675s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.681s] -- Looking for pthread.h
+[0.724s] -- Looking for pthread.h - found
+[0.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.780s] -- Found Threads: TRUE  
+[0.822s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.851s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.921s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.957s] -- Checking for module 'eigen3'
+[0.965s] --   Found eigen3, version 3.4.0
+[0.983s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.983s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.010s] -- Checking for module 'flann'
+[1.017s] --   Found flann, version 1.9.1
+[1.039s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.039s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.681s] -- Checking for module 'libusb-1.0'
+[1.690s] --   Found libusb-1.0, version 1.0.25
+[1.709s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.710s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.741s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.863s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.867s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.871s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.974s] -- Found Qhull version 8.0.2
+[2.090s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.197s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.198s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.198s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.199s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.199s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.200s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.200s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.200s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.201s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.202s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.202s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.203s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.203s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.204s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.205s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.205s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.206s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.207s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.207s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.208s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.208s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.209s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.209s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.209s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.210s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.213s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.242s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+[2.247s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[2.247s] [33mCMake Warning (dev) at CMakeLists.txt:31 (find_package):
+[2.247s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.247s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.247s]   command to set the policy and suppress this warning.
+[2.247s] 
+[2.247s]   CMake variable PCL_ROOT is set to:
+[2.248s] 
+[2.248s]     /usr
+[2.248s] 
+[2.248s]   For compatibility, CMake is ignoring the variable.
+[2.248s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.248s] [0m
+[2.253s] -- Found interface: 0.0.0 (/home/nvidia/ws_fastlio2/install/interface/share/interface/cmake)
+[2.271s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.334s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.334s] -- Configured cppcheck include dirs: 
+[2.334s] -- Configured cppcheck exclude dirs and/or files: 
+[2.334s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.335s] -- Added test 'lint_cmake' to check CMake code style
+[2.335s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.336s] -- Added test 'uncrustify' to check C / C++ code style
+[2.336s] -- Configured uncrustify additional arguments: 
+[2.336s] -- Added test 'xmllint' to check XML markup files
+[2.337s] -- Configuring done
+[2.363s] -- Generating done
+[2.371s] -- Build files have been written to: /home/nvidia/ws_fastlio2/build/pgo
+[2.389s] Invoked command in '/home/nvidia/ws_fastlio2/build/pgo' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/ws_fastlio2/src/fastlio2_ros2/pgo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/ws_fastlio2/install/pgo
+[2.391s] Invoking command in '/home/nvidia/ws_fastlio2/build/pgo': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/pgo -- -j20 -l20
+[2.423s] [ 25%] [32mBuilding CXX object CMakeFiles/pgo_node.dir/src/pgo_node.cpp.o[0m
+[2.425s] [ 75%] [32mBuilding CXX object CMakeFiles/pgo_node.dir/src/pgos/simple_pgo.cpp.o[0m
+[2.425s] [ 75%] [32mBuilding CXX object CMakeFiles/pgo_node.dir/src/pgos/commons.cpp.o[0m
+[25.962s] [100%] [32m[1mLinking CXX executable pgo_node[0m
+[26.611s] [100%] Built target pgo_node
+[26.618s] Invoked command in '/home/nvidia/ws_fastlio2/build/pgo' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/ws_fastlio2/build/pgo -- -j20 -l20
+[26.619s] Invoking command in '/home/nvidia/ws_fastlio2/build/pgo': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/pgo
+[26.621s] -- Install configuration: "Release"
+[26.621s] -- Execute custom install script
+[26.622s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/lib/pgo/pgo_node
+[26.628s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/launch/pgo_launch.py
+[26.634s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/config/pgo.yaml
+[26.644s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/rviz/pgo.rviz
+[26.652s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/ament_index/resource_index/package_run_dependencies/pgo
+[26.664s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/ament_index/resource_index/parent_prefix_path/pgo
+[26.674s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/ament_prefix_path.sh
+[26.682s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/ament_prefix_path.dsv
+[26.687s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/path.sh
+[26.690s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/environment/path.dsv
+[26.694s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.bash
+[26.698s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.sh
+[26.702s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.zsh
+[26.705s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/local_setup.dsv
+[26.709s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/package.dsv
+[26.713s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/ament_index/resource_index/packages/pgo
+[26.717s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/cmake/pgoConfig.cmake
+[26.721s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/cmake/pgoConfig-version.cmake
+[26.726s] -- Symlinking: /home/nvidia/ws_fastlio2/install/pgo/share/pgo/package.xml
+[26.732s] Invoked command in '/home/nvidia/ws_fastlio2/build/pgo' returned '0': AMENT_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/ws_fastlio2/install/interface:/home/nvidia/ws_livox/install/livox_ros_driver2:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/ws_fastlio2/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/ws_fastlio2/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/ws_fastlio2/build/pgo

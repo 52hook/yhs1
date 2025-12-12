@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yhs_can_interfaces__py",
+		"source" : "/home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces/yhs_can_interfaces__py"
+	}
+}

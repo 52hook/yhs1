@@ -1,0 +1,69 @@
+[0.007s] Invoking command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_control': CMAKE_PREFIX_PATH=/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/5.1-ros2_ws/build/yhs_can_control -- -j20 -l20
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target yhs_can_control_node[0m
+[0.047s] [ 50%] Built target odom_velocity_filter
+[0.051s] [ 75%] [32mBuilding CXX object CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o[0m
+[1.553s] In file included from [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:1[m[K:
+[1.553s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:40:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[1.553s]    40 |         rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Imu>::SharedPtr imu_subscriber_;
+[1.553s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[1.553s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.553s]    40 |         rclcpp::Subscription<sensor_msgs::msg::Imu[01;31m[K>[m[K::SharedPtr imu_subscriber_;
+[1.553s]       |                                                   [01;31m[K^[m[K
+[1.553s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.553s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.553s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.553s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:40:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.553s]    40 |         rclcpp::Subscription<sensor_msgs::msg::Imu>::[01;31m[KSharedPtr[m[K imu_subscriber_;
+[1.553s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[1.554s]       |                                                               [32m[K;[m[K
+[1.555s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:40:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_subscriber_[m[K’ does not name a type
+[1.555s]    40 |      rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr [01;31m[Kimu_subscriber_[m[K;
+[1.555s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.555s] 
+[1.609s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:61:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[1.609s]    61 |   void imu_callback(const [01;31m[Ksensor_msgs[m[K::msg::Imu::SharedPtr msg);  // 新增：IMU回调函数
+[1.609s]       |                           [01;31m[K^~~~~~~~~~~[m[K
+[1.609s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:61:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.609s]    61 |   void imu_callback(const sensor_msgs::msg[01;31m[K::[m[KImu::SharedPtr msg);  // 新增：IMU回调函数
+[1.610s]       |                                           [01;31m[K^~[m[K
+[1.610s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:61:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.610s]    61 |   void imu_callback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KImu::SharedPtr msg);  // 新增：IMU回调函数
+[1.610s]       |                    [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[1.610s]       |                                           [32m[K)[m[K
+[1.610s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:61:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.610s]    61 |   void imu_callback(const sensor_msgs::[01;31m[Kmsg[m[K::Imu::SharedPtr msg);  // 新增：IMU回调函数
+[1.610s]       |                                        [01;31m[K^~~[m[K
+[1.610s]       |                                           [32m[K;[m[K
+[1.611s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:61:45:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.611s]    61 |   void imu_callback(const sensor_msgs::msg::[01;31m[KImu[m[K::SharedPtr msg);  // 新增：IMU回调函数
+[1.611s]       |                                             [01;31m[K^~~[m[K
+[1.643s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:[m[K In constructor ‘[01m[Kyhs::CanControl::CanControl(rclcpp::Node::SharedPtr)[m[K’:
+[1.643s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:30:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kio_cmd_subscriber_[m[K’?
+[1.643s]    30 |                  [01;31m[Kimu_subscriber_[m[K = node_->create_subscription<sensor_msgs::msg::Imu>(
+[1.643s]       |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.644s]       |                  [32m[Kio_cmd_subscriber_[m[K
+[1.644s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:33:83:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[1.644s]    33 |                  std::bind(&CanControl::imu_callback, this, std::placeholders::_1)
+[1.644s]       |                                                                                   [01;31m[K^[m[K
+[1.644s]       |                                                                                   [32m[K)[m[K
+[1.645s]    34 |         [32m[K}[m[K
+[1.645s]       |         [32m[K~[m[K                                                                          
+[1.645s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:30:85:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.645s]    30 |    imu_subscriber_ = node_->create_subscription<sensor_msgs::msg::Imu>[01;36m[K([m[K
+[1.645s]       |                                                                       [01;36m[K^[m[K
+[1.645s] 
+[1.645s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:[m[K At global scope:
+[1.645s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:36:15:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid yhs::CanControl::imu_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’
+[1.645s]    36 |          void [01;31m[KCanControl[m[K::imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg)
+[1.645s]       |               [01;31m[K^~~~~~~~~~[m[K
+[1.645s] In file included from [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/src/yhs_can_control_node.cpp:1[m[K:
+[1.645s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:61:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid yhs::CanControl::imu_callback(...)[m[K’
+[1.645s]    61 |   void [01;36m[Kimu_callback[m[K(const sensor_msgs::msg::Imu::SharedPtr msg);  // 新增：IMU回调函数
+[1.646s]       |        [01;36m[K^~~~~~~~~~~~[m[K
+[1.646s] [01m[K/home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_control/include/yhs_can_control/yhs_can_control_node.hpp:33:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass yhs::CanControl[m[K’ defined here
+[1.646s]    33 | class [01;36m[KCanControl[m[K
+[1.646s]       |       [01;36m[K^~~~~~~~~~[m[K
+[3.772s] gmake[2]: *** [CMakeFiles/yhs_can_control_node.dir/build.make:76：CMakeFiles/yhs_can_control_node.dir/src/yhs_can_control_node.cpp.o] 错误 1
+[3.772s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/yhs_can_control_node.dir/all] 错误 2
+[3.773s] gmake: *** [Makefile:146：all] 错误 2
+[3.774s] Invoked command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_control' returned '2': CMAKE_PREFIX_PATH=/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces:/home/nvidia/5.1-ros2_ws/install/yhs_can_control:/home/nvidia/ros2_ws/install/yhs_chassis_description:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/5.1-ros2_ws/build/yhs_can_control -- -j20 -l20

@@ -1,0 +1,52 @@
+[0.007s] Invoking command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target ahrs_driver_node[0m
+[0.060s] [ 28%] Built target imu_tf_node
+[0.060s] [ 57%] Built target pose_velocity_printer
+[0.067s] [ 71%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o[0m
+[1.794s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:[m[K In member function ‘[01m[Kvoid FDILink::ahrsBringup::processLoop()[m[K’:
+[1.794s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:171:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_sn_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.794s]   171 |       size_t [01;35m[Kground_sn_s[m[K = serial_.read(ground_sn, 1);
+[1.794s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[1.794s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:194:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_ignore_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.794s]   194 |       size_t [01;35m[Kground_ignore_s[m[K = serial_.read(ground_ignore, (check_len[0]+4));
+[1.794s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.797s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:308:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.797s]   308 |       size_t [01;35m[Kdata_s[m[K = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1)); //48+1
+[1.797s]       |              [01;35m[K^~~~~~[m[K
+[1.798s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:344:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.798s]   344 |       size_t [01;35m[Kdata_s[m[K = serial_.read(ahrs_frame_.read_buf.read_msg, (AHRS_LEN + 1)); //48+1
+[1.798s]       |              [01;35m[K^~~~~~[m[K
+[1.800s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:378:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.800s]   378 |       size_t [01;35m[Kdata_s[m[K = serial_.read(insgps_frame_.read_buf.read_msg, (INSGPS_LEN + 1)); //48+1
+[1.800s]       |              [01;35m[K^~~~~~[m[K
+[1.801s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:412:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.801s]   412 |       size_t [01;35m[Kdata_s[m[K = serial_.read(Geodetic_Position_frame_.read_buf.read_msg, (GEODETIC_POS_LEN + 1)); //24+1
+[1.801s]       |              [01;35m[K^~~~~~[m[K
+[1.827s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:462:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq_xiao_rr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.827s]   462 |       Eigen::Quaterniond [01;35m[Kq_xiao_rr[m[K =
+[1.827s]       |                          [01;35m[K^~~~~~~~~[m[K
+[1.833s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:528:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_offset[m[K’ was not declared in this scope
+[1.833s]   528 |       Euler_angles_2d.z = ahrs_frame_.frame.data.data_pack.Heading+[01;31m[Kyaw_offset[m[K;//使用转换后的航向角
+[1.833s]       |                                                                    [01;31m[K^~~~~~~~~~[m[K
+[1.834s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:136:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktype_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.834s]   136 |     size_t [01;35m[Ktype_s[m[K = serial_.read(head_type, 1);
+[1.834s]       |            [01;35m[K^~~~~~[m[K
+[1.834s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:147:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.834s]   147 |     size_t [01;35m[Klen_s[m[K = serial_.read(check_len, 1);
+[1.834s]       |            [01;35m[K^~~~~[m[K
+[1.834s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:199:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksn_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.834s]   199 |     size_t [01;35m[Ksn_s[m[K = serial_.read(check_sn, 1);
+[1.834s]       |            [01;35m[K^~~~[m[K
+[1.834s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:201:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc8_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.834s]   201 |     size_t [01;35m[Kcrc8_s[m[K = serial_.read(head_crc8, 1);
+[1.834s]       |            [01;35m[K^~~~~~[m[K
+[1.834s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:204:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_H_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.834s]   204 |     size_t [01;35m[Kcrc16_H_s[m[K = serial_.read(head_crc16_H, 1);
+[1.834s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.834s] [01m[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:205:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_L_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.834s]   205 |     size_t [01;35m[Kcrc16_L_s[m[K = serial_.read(head_crc16_L, 1);
+[1.834s]       |            [01;35m[K^~~~~~~~~[m[K
+[2.996s] gmake[2]: *** [CMakeFiles/ahrs_driver_node.dir/build.make:76：CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o] 错误 1
+[2.997s] gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/ahrs_driver_node.dir/all] 错误 2
+[2.997s] gmake: *** [Makefile:146：all] 错误 2
+[2.999s] Invoked command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20

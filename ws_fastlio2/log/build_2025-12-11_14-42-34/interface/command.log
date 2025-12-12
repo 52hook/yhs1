@@ -1,0 +1,1 @@
+Invoking command in '/home/nvidia/ws_fastlio2/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble /usr/bin/cmake /home/nvidia/ws_fastlio2/src/fastlio2_ros2/interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/ws_fastlio2/install/interface

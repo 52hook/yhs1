@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (-) JobUnselected: {'identifier': 'serial'}
+[0.000246] (fdilink_ahrs) JobQueued: {'identifier': 'fdilink_ahrs', 'dependencies': OrderedDict()}
+[0.000664] (fdilink_ahrs) JobStarted: {'identifier': 'fdilink_ahrs'}
+[0.005830] (fdilink_ahrs) JobProgress: {'identifier': 'fdilink_ahrs', 'progress': 'cmake'}
+[0.006301] (fdilink_ahrs) JobProgress: {'identifier': 'fdilink_ahrs', 'progress': 'build'}
+[0.006893] (fdilink_ahrs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs', '--', '-j20', '-l20'], 'cwd': '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nvidia'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/wheeltec_imu_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/wheeltec_imu_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1639'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nvidia/wheeltec_imu_ws/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-Default-string:@/tmp/.ICE-unix/1444,unix/nvidia-Default-string:/tmp/.ICE-unix/1444'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2259f45f_bc81_4ef1_a6d1_5d5c625464d4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/wheeltec_imu_ws/install/serial:/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs:/home/nvidia/ros2_ws/install/yhs_chassis_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/wheeltec_imu_ws/install/serial:/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs:/home/nvidia/ros2_ws/install/yhs_chassis_description:/opt/ros/humble')]), 'shell': False}
+[0.051632] (fdilink_ahrs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ahrs_driver_node\x1b[0m\n'}
+[0.065330] (fdilink_ahrs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o\x1b[0m\n'}
+[0.065810] (fdilink_ahrs) StdoutLine: {'line': b'[ 42%] Built target pose_velocity_printer\n'}
+[0.065970] (fdilink_ahrs) StdoutLine: {'line': b'[ 71%] Built target imu_tf_node\n'}
+[0.100035] (-) TimerEvent: {}
+[0.200223] (-) TimerEvent: {}
+[0.300455] (-) TimerEvent: {}
+[0.400696] (-) TimerEvent: {}
+[0.500982] (-) TimerEvent: {}
+[0.601285] (-) TimerEvent: {}
+[0.701521] (-) TimerEvent: {}
+[0.801807] (-) TimerEvent: {}
+[0.902025] (-) TimerEvent: {}
+[1.002229] (-) TimerEvent: {}
+[1.102462] (-) TimerEvent: {}
+[1.202697] (-) TimerEvent: {}
+[1.303005] (-) TimerEvent: {}
+[1.403216] (-) TimerEvent: {}
+[1.503443] (-) TimerEvent: {}
+[1.603646] (-) TimerEvent: {}
+[1.703867] (-) TimerEvent: {}
+[1.804077] (-) TimerEvent: {}
+[1.821239] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FDILink::ahrsBringup::processLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.821367] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:171:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kground_sn_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.821418] (fdilink_ahrs) StderrLine: {'line': b'  171 |       size_t \x1b[01;35m\x1b[Kground_sn_s\x1b[m\x1b[K = serial_.read(ground_sn, 1);\n'}
+[1.821449] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.821478] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:194:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kground_ignore_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.821507] (fdilink_ahrs) StderrLine: {'line': b'  194 |       size_t \x1b[01;35m\x1b[Kground_ignore_s\x1b[m\x1b[K = serial_.read(ground_ignore, (check_len[0]+4));\n'}
+[1.821535] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.824335] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:308:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.824375] (fdilink_ahrs) StderrLine: {'line': b'  308 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1)); //48+1\n'}
+[1.824404] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.825564] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:344:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.825595] (fdilink_ahrs) StderrLine: {'line': b'  344 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(ahrs_frame_.read_buf.read_msg, (AHRS_LEN + 1)); //48+1\n'}
+[1.825620] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.826721] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:378:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.826763] (fdilink_ahrs) StderrLine: {'line': b'  378 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(insgps_frame_.read_buf.read_msg, (INSGPS_LEN + 1)); //48+1\n'}
+[1.826789] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.828072] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:412:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.828113] (fdilink_ahrs) StderrLine: {'line': b'  412 |       size_t \x1b[01;35m\x1b[Kdata_s\x1b[m\x1b[K = serial_.read(Geodetic_Position_frame_.read_buf.read_msg, (GEODETIC_POS_LEN + 1)); //24+1\n'}
+[1.828139] (fdilink_ahrs) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.854300] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:462:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kq_xiao_rr\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.854398] (fdilink_ahrs) StderrLine: {'line': b'  462 |       Eigen::Quaterniond \x1b[01;35m\x1b[Kq_xiao_rr\x1b[m\x1b[K =\n'}
+[1.854431] (fdilink_ahrs) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.855342] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:136:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktype_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.855388] (fdilink_ahrs) StderrLine: {'line': b'  136 |     size_t \x1b[01;35m\x1b[Ktype_s\x1b[m\x1b[K = serial_.read(head_type, 1);\n'}
+[1.855418] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.855446] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:147:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klen_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.855482] (fdilink_ahrs) StderrLine: {'line': b'  147 |     size_t \x1b[01;35m\x1b[Klen_s\x1b[m\x1b[K = serial_.read(check_len, 1);\n'}
+[1.855509] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.855535] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:199:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksn_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.855565] (fdilink_ahrs) StderrLine: {'line': b'  199 |     size_t \x1b[01;35m\x1b[Ksn_s\x1b[m\x1b[K = serial_.read(check_sn, 1);\n'}
+[1.855590] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.855616] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:201:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcrc8_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.855643] (fdilink_ahrs) StderrLine: {'line': b'  201 |     size_t \x1b[01;35m\x1b[Kcrc8_s\x1b[m\x1b[K = serial_.read(head_crc8, 1);\n'}
+[1.855669] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.855694] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:204:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcrc16_H_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.855722] (fdilink_ahrs) StderrLine: {'line': b'  204 |     size_t \x1b[01;35m\x1b[Kcrc16_H_s\x1b[m\x1b[K = serial_.read(head_crc16_H, 1);\n'}
+[1.855747] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.855773] (fdilink_ahrs) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nvidia/wheeltec_imu_ws/src/fdilink_ahrs/src/ahrs_driver.cpp:205:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcrc16_L_s\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.855800] (fdilink_ahrs) StderrLine: {'line': b'  205 |     size_t \x1b[01;35m\x1b[Kcrc16_L_s\x1b[m\x1b[K = serial_.read(head_crc16_L, 1);\n'}
+[1.855825] (fdilink_ahrs) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904175] (-) TimerEvent: {}
+[2.004395] (-) TimerEvent: {}
+[2.104619] (-) TimerEvent: {}
+[2.204832] (-) TimerEvent: {}
+[2.305057] (-) TimerEvent: {}
+[2.405288] (-) TimerEvent: {}
+[2.505515] (-) TimerEvent: {}
+[2.605745] (-) TimerEvent: {}
+[2.705987] (-) TimerEvent: {}
+[2.806220] (-) TimerEvent: {}
+[2.906424] (-) TimerEvent: {}
+[3.006653] (-) TimerEvent: {}
+[3.106899] (-) TimerEvent: {}
+[3.207113] (-) TimerEvent: {}
+[3.307340] (-) TimerEvent: {}
+[3.407551] (-) TimerEvent: {}
+[3.507726] (-) TimerEvent: {}
+[3.607959] (-) TimerEvent: {}
+[3.708185] (-) TimerEvent: {}
+[3.808409] (-) TimerEvent: {}
+[3.908637] (-) TimerEvent: {}
+[4.008860] (-) TimerEvent: {}
+[4.109093] (-) TimerEvent: {}
+[4.209312] (-) TimerEvent: {}
+[4.309612] (-) TimerEvent: {}
+[4.409930] (-) TimerEvent: {}
+[4.450439] (fdilink_ahrs) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ahrs_driver_node\x1b[0m\n'}
+[4.510030] (-) TimerEvent: {}
+[4.610245] (-) TimerEvent: {}
+[4.646947] (fdilink_ahrs) StdoutLine: {'line': b'[100%] Built target ahrs_driver_node\n'}
+[4.655664] (fdilink_ahrs) CommandEnded: {'returncode': 0}
+[4.656452] (fdilink_ahrs) JobProgress: {'identifier': 'fdilink_ahrs', 'progress': 'install'}
+[4.663806] (fdilink_ahrs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs'], 'cwd': '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nvidia'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/wheeltec_imu_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/wheeltec_imu_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1639'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nvidia/wheeltec_imu_ws/install:/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia-Default-string:@/tmp/.ICE-unix/1444,unix/nvidia-Default-string:/tmp/.ICE-unix/1444'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2259f45f_bc81_4ef1_a6d1_5d5c625464d4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.163'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/wheeltec_imu_ws/install/serial:/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs:/home/nvidia/ros2_ws/install/yhs_chassis_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/wheeltec_imu_ws/install/serial:/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs:/home/nvidia/ros2_ws/install/yhs_chassis_description:/opt/ros/humble')]), 'shell': False}
+[4.670141] (fdilink_ahrs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.670325] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/pose_velocity_printer\n'}
+[4.670596] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node\n'}
+[4.672282] (fdilink_ahrs) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node" to ""\n'}
+[4.672343] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/lib/fdilink_ahrs/imu_tf_node\n'}
+[4.672392] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch\n'}
+[4.672441] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/imu_tf.launch.py\n'}
+[4.672472] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/launch/ahrs_driver.launch.py\n'}
+[4.672503] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdilink_ahrs\n'}
+[4.672545] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdilink_ahrs\n'}
+[4.672612] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.sh\n'}
+[4.672646] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.dsv\n'}
+[4.672675] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.sh\n'}
+[4.672704] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.dsv\n'}
+[4.672732] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.bash\n'}
+[4.672760] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.sh\n'}
+[4.672787] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.zsh\n'}
+[4.672827] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.dsv\n'}
+[4.672875] (fdilink_ahrs) StdoutLine: {'line': b'-- Installing: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv\n'}
+[4.672904] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/ament_index/resource_index/packages/fdilink_ahrs\n'}
+[4.672935] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake\n'}
+[4.672971] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake\n'}
+[4.672995] (fdilink_ahrs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/wheeltec_imu_ws/install/fdilink_ahrs/share/fdilink_ahrs/package.xml\n'}
+[4.673991] (fdilink_ahrs) CommandEnded: {'returncode': 0}
+[4.684296] (fdilink_ahrs) JobEnded: {'identifier': 'fdilink_ahrs', 'rc': 0}
+[4.684887] (-) EventReactorShutdown: {}
