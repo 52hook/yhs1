@@ -1,9 +1,0 @@
-[0.009s] Invoking command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.161 59852 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20
-[0.043s] [ 28%] [32m[1mLinking CXX executable imu_tf_node[0m
-[0.043s] [ 42%] Built target pose_velocity_printer
-[0.043s] [ 85%] Built target ahrs_driver_node
-[0.049s] Error running link command: No such file or directory
-[0.050s] gmake[2]: *** [CMakeFiles/imu_tf_node.dir/build.make:214: imu_tf_node] Error 2
-[0.050s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/imu_tf_node.dir/all] Error 2
-[0.050s] gmake: *** [Makefile:146: all] Error 2
-[0.052s] Invoked command in '/home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/ai_imu_dr_ros:/opt/ros/humble NX_CONNECTION=192.168.31.161 59852 192.168.31.39 4000 /usr/bin/cmake --build /home/nvidia/wheeltec_imu_ws/build/fdilink_ahrs -- -j20 -l20

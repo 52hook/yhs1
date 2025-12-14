@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target ahrs_driver_node[0m
-[ 57%] Built target pose_velocity_printer
-[ 57%] Built target imu_tf_node
-[ 71%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o[0m

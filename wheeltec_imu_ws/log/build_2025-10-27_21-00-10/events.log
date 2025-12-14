@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000287] (-) JobUnselected: {'identifier': 'fdilink_ahrs'}
-[0.000388] (-) JobUnselected: {'identifier': 'serial'}
-[0.000407] (-) EventReactorShutdown: {}

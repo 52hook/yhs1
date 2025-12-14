@@ -1,3 +1,0 @@
-[ 85%] [32m[1mLinking CXX executable imu_tf_node[0m
-[ 85%] Built target pose_velocity_printer
-[ 85%] Built target ahrs_driver_node
