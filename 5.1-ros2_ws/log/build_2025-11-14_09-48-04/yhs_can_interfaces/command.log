@@ -1,6 +1,0 @@
-Invoking command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_interfaces -DCMAKE_INSTALL_PREFIX=/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces
-Invoked command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/5.1-ros2_ws/src/MK-mini-ros2/yhs_can_interfaces -DCMAKE_INSTALL_PREFIX=/home/nvidia/5.1-ros2_ws/install/yhs_can_interfaces
-Invoking command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces -- -j20 -l20
-Invoked command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces -- -j20 -l20
-Invoking command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces
-Invoked command in '/home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/5.1-ros2_ws/build/yhs_can_interfaces
