@@ -1,4 +1,0 @@
-import sys
-if sys.prefix == '/usr':
-    sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/nvidia/ros2_ws/install/ai_imu_dr_ros'
